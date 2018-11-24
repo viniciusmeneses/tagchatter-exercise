@@ -2,7 +2,9 @@
 
 O desafio foi totalmente completado seguindo à risca todas as instruções e requisitos (inclusive os opcionais) determinados na documentação original abaixo. Além disso, o layout da aplicação foi desenvolvido de acordo com as medidas declaradas no layout disponível no Figma.
 
-- **Desenvolvido utilizando ReactJS**
+- **Desenvolvido com ReactJS**
+
+- **Airbnb Style Guide utilizado (para Javascript e React)**
 
 - **Layout responsivo**
 
