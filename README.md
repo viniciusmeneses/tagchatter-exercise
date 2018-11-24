@@ -2,15 +2,15 @@
 
 O desafio foi totalmente completado seguindo à risca todas as instruções e requisitos (inclusive os opcionais) determinados na documentação original abaixo. Além disso, o layout da aplicação foi desenvolvido de acordo com as medidas declaradas no layout disponível no Figma.
 
-- Desenvolvido utilizando ReactJS
+- **Desenvolvido utilizando ReactJS**
 
-- Layout responsivo
+- **Layout responsivo**
 
-- Rolagem automática para o final do chat quando novas mensagens chegam _(somente se a barra de rolagem já estiver perto do final do chat anteriormente)_
+- **Rolagem automática para o final do chat quando novas mensagens chegam _(somente se a barra de rolagem já estiver perto do final do chat anteriormente)_**
 
-- Efeitos minimalistas adicionais implementados aos avatares e ao botão de enviar
+- **Efeitos minimalistas adicionais implementados aos avatares e ao botão de enviar**
 
-- Notificação de erro caso qualquer requisição falhe
+- **Notificação de erro caso qualquer requisição falhe**
 
 ![My Preview](myPreview.png)
 
