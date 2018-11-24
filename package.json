@@ -1,0 +1,50 @@
+{
+  "name": "tagchatter-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "faker": "^4.1.0",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.24.1",
+    "ramda-fantasy": "^0.8.0",
+    "random-js": "^1.0.8",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-notifications": "^1.4.3",
+    "react-scripts": "2.1.1",
+    "swagger-ui-express": "^2.0.8",
+    "titleize": "^1.0.0",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
