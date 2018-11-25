@@ -5,6 +5,8 @@ import api from '../../../services/api';
 import './style.css';
 
 export default class MessageSender extends Component {
+  messageInputRef = React.createRef();
+
   state = {
     message: '',
   };
@@ -48,6 +50,7 @@ export default class MessageSender extends Component {
         });
       }
     }
+    this.messageInputRef.current.focus();
   };
 
   render() {
@@ -71,6 +74,7 @@ export default class MessageSender extends Component {
             placeholder="Type a message..."
             value={message}
             onChange={this.handleInputMessage}
+            ref={this.messageInputRef}
           />
           <button type="submit" className="form__send" />
         </form>
