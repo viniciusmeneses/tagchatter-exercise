@@ -16,6 +16,24 @@ O desafio foi totalmente completado seguindo à risca todas as instruções e re
 
 ![My Preview](myPreview.png)
 
+## Utilizando
+
+Para utilizar o TagChatter, primeiramente é necessário instalá-lo e para poder utilizá-lo:
+
+**NPM**
+
+```bash
+npm install
+npm start
+```
+
+**Yarn**
+
+```bash
+yarn install
+yarn start
+```
+
 ## Requisitos Cumpridos
 
 #### Requisitos técnicos
