@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
 import api from '../../../services/api';
 
 import './style.css';
 
 export default class MessageSender extends Component {
-  messageInputRef = React.createRef();
+  messageInputRef = createRef();
 
   state = {
     message: '',
